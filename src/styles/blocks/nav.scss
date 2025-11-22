@@ -20,6 +20,7 @@
     color: $color-main-accent;
     font-size: $font-size-normal;
     font-weight: $font-weight-medium;
+    transition: color 300ms ease;
 
     &:hover {
       color: $color-blue-accent;

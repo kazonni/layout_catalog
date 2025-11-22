@@ -23,6 +23,7 @@
     font-weight: $font-weight-medium;
     padding-top: 40px;
     color: $color-main-accent;
+    transition: color 300ms ease;
   }
 
   &:hover {
@@ -30,7 +31,7 @@
     z-index: 10;
 
     .card__title {
-      color: $color-blue-accent;
+      color: #34568b;
     }
   }
 
@@ -74,6 +75,9 @@
     text-decoration: none;
     text-align: center;
     line-height: 40px;
+    transition:
+      background-color 300ms ease,
+      color 300ms ease;
 
     &:hover {
       color: $color-blue-accent;
