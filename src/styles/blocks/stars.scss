@@ -8,7 +8,7 @@
     background-image: url('../images/star.svg');
     width: $star-size;
     height: $star-size;
-    margin-right: 4px;
+    margin-right: $star-gap;
     background-repeat: no-repeat;
     background-position: center;
 
