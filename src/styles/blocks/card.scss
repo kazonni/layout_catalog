@@ -31,7 +31,7 @@
     z-index: 10;
 
     .card__title {
-      color: #34568b;
+      color: $color-hover-title;
     }
   }
 
@@ -71,10 +71,10 @@
     font-weight: $font-weight-bold;
     color: $color-white;
     background: $color-blue-accent;
-    border: none;
     text-decoration: none;
     text-align: center;
     line-height: 40px;
+    border: 1px solid transparent;
     transition:
       background-color 300ms ease,
       color 300ms ease;
